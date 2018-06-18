@@ -71,7 +71,7 @@ $nav1['contactme.php'] = 'Contact Joanna';
 
 function makeLinks($nav1)
 {
-    $myReturns = '';
+    $myReturn = '';
     foreach($nav1 as $url => $text){
         
         if($url == THIS_PAGE){

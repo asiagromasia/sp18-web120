@@ -1,0 +1,17 @@
+ <nav>
+       <ul class="topnav" id="myTopnav">
+     <!-- after the cutting it up replace the line 35-40 with the following shortag
+          <?=makeLinks($nav1)?> -->
+           
+      <li><a href="index.php" class="selected">Witamy</a></li>
+      <li><a href="pokoje.php">Pokoje</a></li>
+      <li><a href="rezerwacja.php">Rezerwacja</a></li>
+      <li><a href="kontrakt.php">Kontrakt</a></li>
+      <li><a href="atrakcje.php">Atrakcje</a></li>
+      <li><a href="contactme.php">Kontakt</a></li>
+      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+    </ul>
+  </nav>
+    
+</header>    
+ 
